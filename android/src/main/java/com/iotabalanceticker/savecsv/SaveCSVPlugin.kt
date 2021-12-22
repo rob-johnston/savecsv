@@ -33,7 +33,7 @@ class SaveCSVPlugin : Plugin() {
             type = "text/csv"
         }
 
-        startActivityForResult(call, intent, "echoResult")
+        startActivityForResult(call, intent, "writeCSVToStorageResult")
     }
 
     @ActivityCallback

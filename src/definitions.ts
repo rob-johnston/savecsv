@@ -1,3 +1,3 @@
 export interface SaveCSVPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  writeCSVToStorage(options: { value: string }): Promise<{ value: string }>;
 }

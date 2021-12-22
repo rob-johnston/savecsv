@@ -1,5 +1,5 @@
 {
-  "name": "save-csv",
+  "name": "@rhdj/save-csv",
   "version": "0.0.1",
   "description": "saves a csv file",
   "main": "dist/plugin.cjs.js",
